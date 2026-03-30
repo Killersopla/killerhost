@@ -1,97 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Recursos Magia PS3</title>
+<title>Recursos magia PS3</title>
 
 <style>
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-    background-color: #0b0f1a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    margin: 0;
-    padding: 0;
+  background: #667eea;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
 }
 
-/* contenedor principal */
+/* CENTRADO REAL COMPATIBLE PS3 */
+.wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* TEXTO GRANDE */
+.main-title {
+  font-size: 40px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
 .container {
-    width: 100%;
-    margin-top: 60px;
+  background: rgba(0,0,0,0.6);
+  padding: 45px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
 }
 
-/* titulo */
-.title {
-    font-size: 28px;
-    font-weight: bold;
-    color: #00ccff;
-    margin-bottom: 40px;
-    animation: glow 2s infinite alternate;
+.section-title {
+  margin-bottom: 30px;
+  font-size: 32px;
 }
 
-/* botones */
-.button {
-    display: block;
-    width: 260px;
-    margin: 15px auto;
-    padding: 15px;
-    background-color: #111827;
-    border: 2px solid #00ccff;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 8px;
-    transition: 0.3s;
+/* BOTON MAGIA */
+.btn-main {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  padding: 25px;
+  font-size: 30px;
+  color: white;
+  border-radius: 12px;
+  text-decoration: none;
+  background: #28a745;
 }
 
-/* hover */
-.button:hover {
-    background-color: #00ccff;
-    color: black;
+.badge {
+  font-size: 18px;
+  margin-left: 8px;
 }
 
-/* logo */
-.logo {
-    margin-top: 40px;
-    width: 180px;
+.mini-img {
+  margin-top: 25px;
+  width: 200px;
 }
 
-/* animacion ligera */
-@keyframes glow {
-    from {
-        text-shadow: 0 0 5px #00ccff;
-    }
-    to {
-        text-shadow: 0 0 15px #00ccff;
-    }
+.footer {
+  margin-top: 35px;
+  font-size: 22px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid rgba(255,255,255,0.4);
+  padding-top: 20px;
+  line-height: 1.8;
 }
 
 </style>
+
 </head>
 
 <body>
 
+<div class="wrapper">
+<div class="content">
+
+<h1 class="main-title">
+★ RECURSOS MAGIA PS3 ★
+</h1>
+
 <div class="container">
 
-<div class="title">
-⭐ RECURSOS MAGIA PS3 ⭐
+<h2 class="section-title">↓ Presiona este botón ↓</h2>
+
+<a class="btn-main" href="493/index.html">
+★ WEBMAN MOD ★<span class="badge">[OFICIAL]</span>
+</a>
+
+    <a class="btn-main" href="493/index.html">
+★ RAP UNIVERSAL PS2 ★<span class="badge">[OFICIAL]</span>
+</a>
+
+    <a class="btn-main" href="493/index.html">
+★ PACK TEMAS KILLERSOPLA ★<span class="badge">[OFICIAL]</span>
+</a>
+
+<img src="killersopla.png" class="mini-img">
+
 </div>
 
-<a class="button" href="webMAN_MOD_1.47.48_Installer.pkg">
-WEBMAN MOD
-</a>
+<div class="footer">
 
-<a class="button" href="RAP PS2.pkg">
-RAP UNIVERSAL PS2
-</a>
+★ Sitio creado por Killersopla ★<br>
 
-<a class="button" href="PACK_X4_TEMAS_KILLERSOPLA.pkg">
-PACK TEMAS
-</a>
+</div>
 
-<img class="logo" src="killersopla.png">
-
+</div>
 </div>
 
 </body>
